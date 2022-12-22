@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{padding: 0; margin: 0; list-style: none;}
+        img{height: auto; max-width: 100%;}
+
+        .menu{
+            background-color: black;
+            text-align: center;
+        }
+
+        .wrap ul li{display: inline;}
+        .wrap ul li a {
+            display: inline-block;
+            height: 100px;
+            line-height: 100px;
+            width: 100px;
+            color: white;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+
+        .wrap ul li a:hover{
+            border-bottom: solid 5px white;
+            transform: scaleX(0);  
+             transition: transform 250ms ease-in-out;
+        }
+
+        .txt_box{
+            padding: 100px;
+        }
+
+        .txt_box div{
+            border: 1px solid black;
+            padding: 40px 30px;
+        }
+    </style>0
+</head>
+<body>
+    <!-- 메뉴 div div -->
+
+    <!-- 메뉴 -->
+    <header class="menu">
+        <nav class="wrap">
+            <ul class="">
+                <li><a href="#">메뉴</a></li>
+                <li><a href="#">메뉴</a></li>
+                <li><a href="#">메뉴</a></li>
+                <li><a href="#">메뉴</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- div -->
+    <article>
+        <img src="img/4.jpg" alt="배너1">
+    </article>
+
+    <!-- div -->
+    <section class="txt_box">
+        <h3>오늘의 발견</h3>
+        <div>
+            컨텐츠 내용... <br>
+            컨텐츠 내용... <br>
+            컨텐츠 내용... <br>
+            컨텐츠 내용... <br>
+            컨텐츠 내용... <br>
+            컨텐츠 내용... <br>
+        </div>
+    </section>
+
+</body>
+</html>

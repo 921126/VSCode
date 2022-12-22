@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .list > ul >li > a:hover{background-color: pink;} /*선택한 부분 색상 변경*/
+        .inner input:focus {background-color: aqua;} /*인풋부분 선택시 색상 변경*/
+        .title p:active{background-color: greenyellow;} /*선택하고 있는 상태일때만 색상 변경*/
+
+    </style>
+
+
+
+</head>
+<body>
+    
+    <div class="list">
+        <ul>
+            <li><a href="#">목록</a></li>
+            <li><a href="#">목록</a></li>
+            <li><a href="#">목록</a></li>
+        </ul>
+    </div>
+
+    <div class="inner">
+        <input type="text">
+        <input type="text">
+    </div>
+
+    <div class="title">
+        <p>active</p>
+    </div>
+</body>
+</html>

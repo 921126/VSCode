@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        /* .box{
+            overflow: hidden;
+            width: 1000px;
+            height: 240px;
+            margin: 0 auto;
+            border: 1px solid red;
+        }
+
+        .box .box2{
+            float: left;
+            width: 50.0000%;
+            height: 100%;
+            border: 1px solid red;
+            box-sizing: border-box;
+        }
+
+        .box .box3{
+            float: left;
+            width: 50.0000%;
+            height: 100%;
+            border: 1px solid red;
+            box-sizing: border-box;
+        }
+
+        .box3 .box3_1{
+            float: left;
+            width: 100%;
+            padding-bottom: 120px;
+            border: 1px solid red;
+        }
+        .box3 .txt{float: left;}
+        .box3 .txt2{float: right;}
+
+        .btn{
+            overflow: hidden;
+            text-align: center;
+        }
+        .btn_{
+            float: left;
+            width: 50.0000%;
+            height: 52px;
+            font-size: 24px;
+        } */
+        
+        /* 쌤코드 */
+        .box{
+            overflow: hidden;
+            border: 1px solid black;
+            width: 800px;
+            margin: 0 auto;
+        }
+
+        .box .inner{
+            float: left;
+            width: 50.0000%;
+            box-sizing: border-box;
+        }
+
+        .box .inner p{ margin: 0;}
+
+        .warp { border: 1px solid red;}
+        .content {overflow: hidden;}
+        .content .left{float: left;}
+        .content .right{float: right;}
+        .content button{width: 50%;}
+
+        .control{ margin-top: 50px; border: 1px solid red;}
+    </style>
+</head>
+<body>
+    
+    <!-- <div class="box">
+        <div class="box2">
+            사진
+        </div>
+        <div class="box3">
+            <div class="box3_1">
+                제목:패딩바텀 50px <br>
+                내용: ~~~
+            </div>
+            <div class="txt">
+                가격
+            </div>
+            <div class="txt2">
+                10000원
+            </div>
+            <div style="clear: both;" class="btn">
+                <button  type="button" class="btn_">장바구니</button>
+                <button  type="button" class="btn_">구매하기</button>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- 쌤코드 -->
+    <div class="box">
+        <div class="inner">
+            사진
+        </div>
+        <div class="inner warp">
+            <div>
+                <p>제목:~~~</p>
+                <p>내용:~~~</p>
+            </div>
+            <div class="control">
+                <div class="content">
+                    <span class="left">가격</span>
+                    <span class="right">10000원</span>
+                </div>
+                <div class="content">
+                    <button type="button" class="left">구매하기</button>
+                    <button type="button" class="right">장바구니</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
