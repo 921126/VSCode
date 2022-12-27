@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *{margin: 0; padding: 0;}
+        section{ width: 500px; overflow: hidden; margin: 0 auto;}
+        section .box{ float: left; width: 25%; background-color: aquamarine; height: 100px;}
+
+        .pos{
+            background-color: red;
+            /* position: relative; 상대위치 기준 z축으로 올림 */
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <!-- position: relative; 가 있는 기준으로 Z축으로 올라간다. -->
+    <section style="position: relative;">
+        <div class="box">박스1</div>
+        <div class="box">박스2</div>
+        <div class="box">박스3</div>
+        <div class="box">
+            박스4
+            <div class="pos">포지션</div>
+        </div>
+    </section>
+
+</body>
+</html>

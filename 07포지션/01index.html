@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+        *{margin: 0; padding: 0;}
+        .list{
+            width: 50%;
+            margin: 0 auto;
+            border: 1px solid black;
+        }
+
+        p{height: 100px;}
+
+
+        .content{
+            position: relative;
+        }
+
+        .item1{background-color: aqua;}
+        .item2{
+            background-color: red;
+            position: absolute; /*상위 태그기준 z축으로 올라온다.*/
+            top: 10px; /*상자 위치조정*/
+            left: 30px;
+            width: 50px; /*상자 크기조정*/
+            height: 50px;
+        }
+        .item3{background-color: yellow;}
+
+    </style>
+
+</head>
+<body>
+
+    <div class="list">
+        <div class="content">
+            <p class="item1">포지션</p>
+            <p class="item2">포지션</p>
+            <p class="item3">포지션</p>
+        </div>
+    </div>
+
+</body>
+</html>

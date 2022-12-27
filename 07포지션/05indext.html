@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *{padding: 0; margin: 0;}
+
+        /*  
+        .box{
+            border: 1px solid black;
+            margin: 0 auto;
+            width: 800px;
+            position: relative;
+        }
+
+        .box .img{
+            position: absolute;
+            top: 0;
+        }
+
+        .box .inner{
+            padding-left: 90px;
+            margin: 20px 20px;
+        }
+
+        textarea{
+            width: 650px;
+            height: 300px;
+        }
+
+        .inner{overflow: hidden;}
+
+        .inner .left{
+            float: left;
+        }
+        .inner .right{float: right; margin-right: 20px;}
+        */
+        
+        .wrap{
+            border: 1px solid black;
+            width: 800px;
+            margin: 0 auto;
+            
+            padding: 20px;
+            
+            position: relative;
+        }
+
+        .wrap-img{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        .wrap-contant{
+            padding-left: 110px;
+            overflow: hidden;
+        }
+        
+        .wrap-contant .left{float: left;}
+        .wrap-contant .right{float: right;}
+
+        .wrap-contant textarea{
+            width: 100%;
+            height: 150px;
+            box-sizing: border-box;
+            resize: none;
+        }
+
+        .left input{display: block;}
+
+    </style>
+</head>
+<body>
+
+    <!--내코드
+    <div class="box">
+        
+        <div class="img">
+            <img src="img/bgimg.png" alt="이미지">
+        </div>
+
+        <div class="inner">
+            
+            <textarea>내용...</textarea>
+
+            <div class="left">
+                <input type="text"><br>
+                <input type="text">
+            </div>
+            <button type="button" class="right">등록하기</button>
+        </div>
+    </div>
+    -->
+
+    <!-- 쌤코드 -->
+
+    <div class="wrap">
+        <div class="wrap-img">
+            <img src="img/bgimg.png" alt="이미지">
+        </div>
+
+        <div class="wrap-contant">
+            <textarea></textarea>
+            <div class="left">
+                <input type="text">
+                <input type="text">
+            </div>
+            <button type="button" class="right">등록하기</button>
+        </div>
+    </div>
+
+    <div class="wrap">
+        <div class="wrap-img">
+            <img src="img/bgimg.png" width="80" alt="물고기">
+        </div>
+        <div class="wrap-contant">
+            <div class="left">
+                <h2>제목</h2>
+                <p>내용</p>
+            </div>
+                <button type="button" class="right">삭제</button>
+                <button type="button" class="right">수정</button>
+        </div>
+    </div>
+
+</body>
+</html>
